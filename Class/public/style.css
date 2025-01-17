@@ -1,0 +1,133 @@
+body {
+	background-color: #f2f2f2;
+}
+
+#header {
+	color: #00698f;
+}
+
+#inventory-container {
+	width: 80%;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#inventory-header {
+	margin-bottom: 20px;
+}
+
+#inventory-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#inventory-list li {
+    background: #e9ecef;
+    margin: 10px 0;
+    padding: 10px; 
+    border-radius: 5px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+/* Button styles */
+.edit-btn, .delete-btn {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    margin-left: 5px; 
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    background-color: #0056b3; 
+}
+
+#add-item-form {
+	margin-top: 20px;
+}
+
+#add-item-form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#add-item-form input {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+#add-item-btn {
+	background-color: #00698f;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#add-item-btn:hover {
+	background-color: #0088cc;
+}
+
+.inventory-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inventory-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.inventory-list li:last-child {
+  border-bottom: none;
+}
+#search-item-form {
+  margin-top: 20px;
+}
+
+#search-item-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#search-item-form input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#search-item-btn {
+  background-color: #00698f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#search-item-btn:hover {
+  background-color: #0088cc;
+}
+
+
+
+
+
+
+

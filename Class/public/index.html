@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inventaris</title>
+</head>
+<body>
+    <h1 id="header">Inventaris App</h1>
+	<div id="inventory-container">
+		<h2 id="inventory-header">Daftar Barang</h2>
+		<ul id="inventory-list"></ul>
+		<form id="add-item-form">
+			<label for="item-name">Nama Barang:</label>
+			<input type="text" id="item-name" name="item-name" required><br><br>
+			<label for="item-quantity">Jumlah:</label>
+			<input type="number" id="item-quantity" name="item-quantity" required><br><br>
+			<label for="item-price">Harga:</label>
+			<input type="number" id="item-price" name="item-price" required><br><br>
+			<button id="add-item-btn" type="submit">Tambah Barang</button>
+		</form>
+		  <!-- Form pencarian item -->
+		  <form id="search-item-form">
+            <label for="search-item-name">Cari Barang:</label>
+            <input type="text" id="search-item-name" name="search-item-name" required><br><br>
+            <button id="search-item-btn" type="submit">Cari</button>
+        </form>
+	</div>
+    <script type="module" src="Inventory.js"></script>
+</body>
+</html>
